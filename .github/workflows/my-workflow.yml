@@ -16,6 +16,7 @@ jobs:
       
       - name: cat-facts
         uses: ./.github/actions/cat-facts
+        id: cat
 
       - name: create-issue
         uses: ./.github/actions/issue-maker
